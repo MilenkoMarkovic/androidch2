@@ -3,10 +3,10 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         release {
-            keyAlias 'my_alias'
-            keyPassword 'password'
-            storeFile file('/Users/kousen/keystores/myapp.keystore')
-            storePassword 'password'
+            keyAlias 'priquitabr'
+            keyPassword '*******'
+            storeFile file('/Users/v-mimarkovic/my-upload-key.keystore')
+            storePassword '*******'
         }
     }
 
